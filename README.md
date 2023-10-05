@@ -1,32 +1,32 @@
 # creative_quiz
 20230944 김민성 창의공학 퀴즈시험<br/>
 1번<br/>
-void setup(){<br/>
-  pinMode(3, OUTPUT);<br/>
+void setup(){
+  pinMode(3, OUTPUT);
 }
 
-void loop(){<br/>
-  digitalWrite(3, HIGH);<br/>
+void loop(){
+  digitalWrite(3, HIGH);
   delay(250);<br/>
-  digitalWrite(3, LOW);<br/>
-  delay(250);<br/>
+  digitalWrite(3, LOW);
+  delay(250);
 }
 
 2번=====================================================<br/>
-void setup(){<br/>
-  pinMode(13, OUTPUT);<br/>
-  pinMode(7, INPUT_PULLUP);<br/>
+void setup(){
+  pinMode(13, OUTPUT);
+  pinMode(7, INPUT_PULLUP);
 }
 
 void loop(){<br/>
-  int sw=digitalRead(7);    <br/>
+  int sw=digitalRead(7);  
 
   if(sw==HIGH){<br/>           
-    digitalWrite(13, LOW);<br/>     
+    digitalWrite(13, LOW);   
   }
-  else<br/>       
-  {<br/>
-    digitalWrite(13, HIGH);<br/>
+  else      
+  {
+    digitalWrite(13, HIGH);
   }
 }
 
