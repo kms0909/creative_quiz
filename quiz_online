@@ -4,4 +4,29 @@
 
 2. 스마트폰과 통신이 가능한 스마트 전구를 준비한다. -> 핸드폰과 전등이 통신할수있는 서버를 준비합니다. -> 앱인벤터와 같은 핸드폰과 전등이 통신이 가능한 프로토콜을 개발합니다. -> 앞에 과정에 있는 오류들을 고쳐나가며 완성합니다.
 
-4.
+4. 프로세싱
+import processing.net.*;
+
+Server s;
+
+Client c;
+
+void setup(){
+  
+  s = new Server(this, 12345);
+  
+}
+
+void draw(){}
+
+void keyPressed(){
+
+background(0);
+
+textSize(64);
+
+text(key, 10, 64);
+
+c.write(key);
+
+}
