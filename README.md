@@ -75,6 +75,7 @@ void loop(){
 
   if(m == '5') tone(4,523,500);
 }
+
 프로세싱===========================<br/>
 import processing.serial.*;
 Serial p;
